@@ -1,0 +1,41 @@
+.counter {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  background: linear-gradient(145deg, #1e1e1e, #2c2c2c);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.counter h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #00ffcc; /* Neon color for futuristic look */
+  text-shadow: 0 0 5px rgba(0, 255, 204, 0.8);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 0 10px;
+  color: #00ffcc; /* Neon color for buttons */
+  background: none;
+  border: 2px solid #00ffcc; /* Neon border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+  background-color: #00ffcc;
+  color: #000;
+  box-shadow: 0 0 10px #00ffcc;
+}
